@@ -1,0 +1,165 @@
+
+.Left{
+    font-family: 'Baloo Bhai 2', cursive;;
+    text-align: center;
+    color: black;
+    height: 65px;
+    filter: invert(100%);    
+    /* color: white; */
+    float: left;
+    margin: 12px ;
+    /* border: 2px solid red; */
+    
+
+}
+.Left img{
+    display: block;
+    width: 90px;
+    
+}
+.Mid{
+    display:block;
+    width: 33%;
+    margin: 12px auto;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+.navbar{
+    
+    margin-top: 4px;
+
+}
+.navbar li{
+    font-family: 'Baloo Bhai 2', cursive;;
+    display: inline;
+    
+}
+.navbar li a{
+    font-family: 'Baloo Bhai 2', cursive;;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: cornflowerblue;
+}
+
+.Right{
+    font-family: 'Baloo Bhai 2', cursive;;
+    color: white;
+    float: right;
+    /* border: 2px solid blue; */
+    margin-top: -40px;
+}
+
+body{
+    
+    font-family: 'Baloo Bhai 2', cursive;;
+    background-image: url('bg1.jpg')
+    
+}
+@media screen and (max-width: 400px)
+{
+
+        
+
+}    
+
+h3{
+    font-size: 22px;
+    margin: 4px;
+}
+
+.container{
+    height: 370px;
+    margin: 12px 12px;
+    display: inline block;
+    width: 33%;
+    color: cornsilk;
+    border: 8px solid #bdacf2;
+    border-radius: 30px;
+    text-align: center;
+    margin: 86px;
+    @media screen and (min-width: 900px) {
+        article {
+            height: 3300px;
+            margin: 12px 12px;
+            display: inline block;
+            width: 74%;
+            color: cornsilk;
+            border: 8px solid #bdacf2;
+            border-radius: 30px;
+            text-align: center;
+            margin: 31px;
+        }
+        }
+    
+}
+li input{
+    font-size: 16px;
+    margin: 7px;
+    padding: 7px 104px;
+   border-radius: 10px;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 25px 4px;
+    width: 94px;
+}
+.btn:hover{
+    color: red;
+} 
+#cu{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 14px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#cu:hover{
+    color: tomato;
+}
+#eu{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 14px;
+    background-color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#eu:hover{
+    color: tomato;
+}
+.submit{
+    margin: 0;
+    color: green;
+}
+#name{
+    padding: 5px;
+    margin: 10pX 32px;
+    border-radius: 8px;
+}
+#age{
+    padding: 5px;
+    margin: 10pX 32px;
+    border-radius: 8px;
+}
+#email{       
+    padding: 5px;
+    margin: 10pX 32px;
+    border-radius: 8px;
+}
+#phone{       
+    padding: 5px;
+    margin: 10pX 32px;
+    border-radius: 8px;
+}
+#locality{  
+    padding: 5px;
+    margin: 10pX 32px;
+    border-radius: 8px;
+}

@@ -1,0 +1,15 @@
+@media screen and (min-width: 900px) {
+    article {
+        height: 330px;
+        margin: 12px 12px;
+        display: inline block;
+        width: 74%;
+        color: cornsilk;
+        border: 8px solid #bdacf2;
+        border-radius: 30px;
+        text-align: center;
+        margin: 31px;
+    }
+    }
+
+  
